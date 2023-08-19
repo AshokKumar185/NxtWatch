@@ -1,0 +1,53 @@
+.react-player-container {
+  width: 1000px;
+  padding: 10px 40px 10px 40px;
+}
+.react-player {
+  width: 900px;
+}
+.bottom-video-container {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #8888;
+}
+.video-feedback-container {
+  list-style-type: none;
+  display: flex;
+  gap: 15px;
+}
+.video-feedback-item {
+}
+.feedback-buttons {
+  display: flex;
+  align-items: center;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  gap: 5px;
+  cursor: pointer;
+  font-size: 15px;
+}
+.channel-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.channel-name {
+  margin-bottom: 0px;
+  font-family: 'Roboto';
+}
+.channel-sub {
+  margin-top: 5px;
+  font-family: 'Roboto';
+}
+.channel-description {
+  padding-left: 59px;
+  font-family: 'Roboto';
+  font-weight: 400;
+}
+.video-card-heading {
+  font-family: 'Roboto';
+}
+.color-blue {
+  color: #4477ce;
+}

@@ -1,0 +1,22 @@
+.gaming-list-container {
+  list-style-type: none;
+  padding-left: 30px;
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+.gaming-list-item {
+}
+.gaming-title {
+  padding-left: 0px;
+  font-family: 'Roboto';
+  margin-bottom: 5px;
+  margin-top: 8px;
+}
+.gaming-view {
+  margin-top: 10px;
+}
+.gaming-icon {
+  color: #c70039;
+  font-size: 40px;
+}

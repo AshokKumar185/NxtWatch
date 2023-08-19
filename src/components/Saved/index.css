@@ -1,0 +1,20 @@
+.no-saved-videos {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 1030px;
+  height: 70vh;
+}
+.saved-videos-list-container {
+  list-style-type: none;
+}
+.saved-videos-list-item {
+}
+.fire-icon {
+  color: red;
+  background-color: aliceblue;
+  font-size: 38px;
+  padding: 10px;
+  border-radius: 50%;
+}

@@ -1,0 +1,65 @@
+.login-container {
+  background-color: #fde5ec;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-card-container {
+  background-color: #ffffff;
+  box-shadow: 0 0 4px 3px #8888;
+  width: 350px;
+  height: 320px;
+  display: flex;
+  border-radius: 5px;
+  flex-direction: column;
+  padding: 10px;
+  padding-top: 19px;
+  align-items: center;
+}
+.login-form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-top: 40px;
+}
+.checkbox-container {
+  margin-bottom: 13px;
+  margin-top: 0px;
+}
+.checkbox-input {
+  cursor: pointer;
+}
+.input-container {
+  margin-bottom: 14px;
+}
+.input-container-password {
+  margin-bottom: 5px;
+}
+.input {
+  padding: 9px;
+  width: 240px;
+  margin-top: 6px;
+  outline: none;
+  font-size: 15px;
+  border: 1px solid #cccc;
+  border-radius: 4px;
+}
+.login-btn {
+  width: 260px;
+  padding: 10px;
+  background-color: #3b82f6;
+  outline: none;
+  border: none;
+  border-radius: 3px;
+  color: #ffffff;
+  font-weight: bold;
+  cursor: pointer;
+  box-shadow: 0 0 4px 1px #8888;
+}
+.error-msg {
+  color: red;
+  margin-top: 6px;
+  font-weight: 500;
+}

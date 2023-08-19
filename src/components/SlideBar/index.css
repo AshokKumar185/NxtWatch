@@ -1,0 +1,52 @@
+.side-bar-container {
+  width: 180px;
+  height: 100vh;
+  background-color: azure;
+  display: flex;
+  padding-right: 5px;
+  flex-direction: column;
+  justify-content: space-between;
+  border-right: 1px solid #ccc;
+}
+.side-bar-list-container {
+  list-style-type: none;
+  padding-left: 7px;
+}
+
+.side-bar-list-item {
+}
+.side-list-btn {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  background-color: transparent;
+  outline: none;
+  border: none;
+  width: 170px;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 17px;
+}
+
+.social-media-container {
+  list-style-type: none;
+  padding-left: 7px;
+  display: flex;
+  align-items: center;
+  gap: 13px;
+}
+.bottom-side-container {
+  margin: 0px;
+}
+h3 {
+  padding-left: 7px;
+}
+.contact-desc {
+  padding-left: 7px;
+}
+.sl-btn:hover {
+  background-color: #cccc;
+}
+.side-items {
+  font-weight: bold;
+}
