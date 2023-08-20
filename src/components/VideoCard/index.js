@@ -115,7 +115,7 @@ class VideoCard extends Component {
                         height={400}
                       />
                       <h2 className="video-card-heading">{title}</h2>
-                      <div className="bottom-video-container">
+                      <div className="bottom-video-containers">
                         <div className="count-publish-container">
                           <p className="video-count">{viewCount} Views</p>
                           <GoDotFill />
