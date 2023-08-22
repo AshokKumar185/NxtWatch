@@ -14,13 +14,15 @@ import Saved from './components/Saved'
 class App extends Component {
   state = {savedVideos: []}
 
-  addSavedVideos = data => {
+  addSavedVideos = async data => {
     const {savedVideos} = this.state
     if (savedVideos.length > 0) {
       const savedVid = savedVideos.filter(eachData => eachData.id === data.id)
-      if (savedVid === 0) {
-        this.setState({savedVideos: [...savedVideos, data]})
+      if (savedVid.length === 0) {
+        await this.setState({savedVideos: [...savedVideos, data]})
       }
+    } else {
+      this.setState({savedVideos: [...savedVideos, data]})
     }
   }
 

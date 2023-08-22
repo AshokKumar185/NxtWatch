@@ -14,6 +14,7 @@ class Saved extends Component {
         {values => {
           const {savedVideos} = values
           const len = savedVideos.length
+          console.log(savedVideos)
           console.log(len)
           return (
             <>
